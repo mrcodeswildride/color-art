@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <h1>Color Art</h1>
+
+    <div id="grid">
+        <div>
+            <div id="square1" class="square"></div>
+            <div id="square2" class="square"></div>
+            <div id="square3" class="square"></div>
+        </div>
+        <div>
+            <div id="square4" class="square"></div>
+            <div id="square5" class="square"></div>
+            <div id="square6" class="square"></div>
+        </div>
+        <div>
+            <div id="square7" class="square"></div>
+            <div id="square8" class="square"></div>
+            <div id="square9" class="square"></div>
+        </div>
+    </div>
+
+    <div id="controlPanel">
+        <div class="section">
+            <div>
+                <strong>Background color:</strong>
+            </div>
+
+            <div>
+                <button id="noBackground">None</button>
+                <button id="red">Red</button>
+                <button id="green">Green</button>
+                <button id="blue">Blue</button>
+            </div>
+
+            <p id="selectedBackground">Selected color: none</p>
+        </div>
+
+        <div class="section">
+            <div>
+                <strong>Opacity:</strong>
+            </div>
+
+            <div>
+                <button id="opacity25">25%</button>
+                <button id="opacity50">50%</button>
+                <button id="opacity75">75%</button>
+                <button id="opacity100">100%</button>
+            </div>
+
+            <p id="selectedOpacity">Selected opacity: none</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
