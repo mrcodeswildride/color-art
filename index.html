@@ -2,65 +2,48 @@
 <html>
 
 <head>
-    <title>Color Art</title>
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <link rel="stylesheet" href="stylesheet.css">
+	<title>Color Art</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js" defer>
+
+	</script>
 </head>
 
 <body>
-    <h1>Color Art</h1>
+	<h1>Color Art</h1>
 
-    <div id="grid">
-        <div>
-            <div id="square1" class="square"></div>
-            <div id="square2" class="square"></div>
-            <div id="square3" class="square"></div>
-        </div>
-        <div>
-            <div id="square4" class="square"></div>
-            <div id="square5" class="square"></div>
-            <div id="square6" class="square"></div>
-        </div>
-        <div>
-            <div id="square7" class="square"></div>
-            <div id="square8" class="square"></div>
-            <div id="square9" class="square"></div>
-        </div>
-    </div>
+	<div id="grid">
+		<div>
+			<div class="square" id="square1"></div>
+			<div class="square" id="square2"></div>
+			<div class="square" id="square3"></div>
+		</div>
+		<div>
+			<div class="square" id="square4"></div>
+			<div class="square" id="square5"></div>
+			<div class="square" id="square6"></div>
+		</div>
+		<div>
+			<div class="square" id="square7"></div>
+			<div class="square" id="square8"></div>
+			<div class="square" id="square9"></div>
+		</div>
+	</div>
 
-    <div id="controlPanel">
-        <div class="section">
-            <div>
-                <strong>Background color:</strong>
-            </div>
+	<div id="sidePanel">
+		<p class="label">Color</p>
+    <button id="redButton">Red</button>
+    <button id="greenButton">Green</button>
+    <button id="blueButton">Blue</button>
+    <p id="colorParagraph">Selected color: none</p>
 
-            <div>
-                <button id="noBackground">None</button>
-                <button id="red">Red</button>
-                <button id="green">Green</button>
-                <button id="blue">Blue</button>
-            </div>
-
-            <p id="selectedBackground">Selected color: none</p>
-        </div>
-
-        <div class="section">
-            <div>
-                <strong>Opacity:</strong>
-            </div>
-
-            <div>
-                <button id="opacity25">25%</button>
-                <button id="opacity50">50%</button>
-                <button id="opacity75">75%</button>
-                <button id="opacity100">100%</button>
-            </div>
-
-            <p id="selectedOpacity">Selected opacity: none</p>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+    <p class="label">Opacity</p>
+    <button id="opacity25Button">25%</button>
+    <button id="opacity50Button">50%</button>
+    <button id="opacity75Button">75%</button>
+    <p id="opacityParagraph">Selected opacity: none</p>
+  </div>
 </body>
 
 </html>
