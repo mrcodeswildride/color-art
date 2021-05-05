@@ -18,8 +18,8 @@ let opacity50Button = document.getElementById(`opacity50Button`)
 let opacity750Button = document.getElementById(`opacity75Button`)
 let opacityParagraph = document.getElementById(`opacityParagraph`)
 
-let selectedColor = ``
-let selectedOpacity = ``
+let selectedColor
+let selectedOpacity
 
 square1.addEventListener(`click`, changeSquare)
 square2.addEventListener(`click`, changeSquare)

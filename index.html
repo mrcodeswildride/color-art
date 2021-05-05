@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Color Art</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-	<title>Color Art</title>
-	<meta name="viewport" content="width=device-width, initial-scale=0.5">
-	<link href="style.css" rel="stylesheet">
-	<script src="script.js" defer>
+  <body>
+    <h1>Color Art</h1>
 
-	</script>
-</head>
+    <div id="grid">
+      <div>
+        <div class="square" id="square1"></div>
+        <div class="square" id="square2"></div>
+        <div class="square" id="square3"></div>
+      </div>
+      <div>
+        <div class="square" id="square4"></div>
+        <div class="square" id="square5"></div>
+        <div class="square" id="square6"></div>
+      </div>
+      <div>
+        <div class="square" id="square7"></div>
+        <div class="square" id="square8"></div>
+        <div class="square" id="square9"></div>
+      </div>
+    </div>
 
-<body>
-	<h1>Color Art</h1>
+    <div id="sidePanel">
+      <p class="label">Color</p>
+      <button id="redButton">Red</button>
+      <button id="greenButton">Green</button>
+      <button id="blueButton">Blue</button>
+      <p id="colorParagraph">Selected color: none</p>
 
-	<div id="grid">
-		<div>
-			<div class="square" id="square1"></div>
-			<div class="square" id="square2"></div>
-			<div class="square" id="square3"></div>
-		</div>
-		<div>
-			<div class="square" id="square4"></div>
-			<div class="square" id="square5"></div>
-			<div class="square" id="square6"></div>
-		</div>
-		<div>
-			<div class="square" id="square7"></div>
-			<div class="square" id="square8"></div>
-			<div class="square" id="square9"></div>
-		</div>
-	</div>
-
-	<div id="sidePanel">
-		<p class="label">Color</p>
-    <button id="redButton">Red</button>
-    <button id="greenButton">Green</button>
-    <button id="blueButton">Blue</button>
-    <p id="colorParagraph">Selected color: none</p>
-
-    <p class="label">Opacity</p>
-    <button id="opacity25Button">25%</button>
-    <button id="opacity50Button">50%</button>
-    <button id="opacity75Button">75%</button>
-    <p id="opacityParagraph">Selected opacity: none</p>
-  </div>
-</body>
-
+      <p class="label">Opacity</p>
+      <button id="opacity25Button">25%</button>
+      <button id="opacity50Button">50%</button>
+      <button id="opacity75Button">75%</button>
+      <p id="opacityParagraph">Selected opacity: none</p>
+    </div>
+  </body>
 </html>
